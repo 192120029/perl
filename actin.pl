@@ -1,0 +1,9 @@
+$file1='actin.txt';
+open(FILE1,$file1);
+@actin=<FILE1>;
+$file2='myosin.txt';
+open(FILE2,$file2);
+@myosin=<FILE2>;
+print"@actin\n";
+print"@myosin\n";
+exit
